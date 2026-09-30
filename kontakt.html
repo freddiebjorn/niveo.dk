@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt – Niveo</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1c2333;line-height:1.6}
+  header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%}
+  .logo{font-weight:800;font-size:1.4rem;color:#3b5bdb;text-decoration:none}
+  nav a{margin-left:24px;text-decoration:none;color:#1c2333;font-weight:500}
+  .hero{text-align:center;padding:70px 8%;background:linear-gradient(135deg,#3b5bdb,#7048e8);color:#fff}
+  .hero h1{font-size:clamp(2rem,6vw,3rem);margin-bottom:12px}
+  .hero p{max-width:560px;margin:0 auto;opacity:.9}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;padding:70px 8%}
+  .card{padding:28px;border-radius:16px;background:#f4f6fb}
+  .card h2{margin-bottom:12px;font-size:1.3rem}
+  .card p{margin-bottom:6px}
+  table{width:100%;border-collapse:collapse}
+  td{padding:8px 0;border-bottom:1px solid #dde2ef}
+  td:last-child{text-align:right;font-weight:600}
+  a{color:#3b5bdb}
+  footer{text-align:center;padding:24px;font-size:.9rem;color:#667}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">Niveo</a>
+  <nav><a href="index.html">Forside</a><a href="kontakt.html">Kontakt</a></nav>
+</header>
+
+<section class="hero">
+  <h1>Kontakt os</h1>
+  <p>Har du spørgsmål eller brug for hjælp? Vi svarer som regel inden for én hverdag.</p>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <h2>Kontaktinfo</h2>
+    <p><strong>E-mail:</strong> <a href="mailto:kontakt@niveo.dk">kontakt@niveo.dk</a></p>
+    <p><strong>Telefon:</strong> <a href="tel:+4512345678">+45 12 34 56 78</a></p>
+    <p><strong>Adresse:</strong> Eksempelvej 1, 1000 København</p>
+  </div>
+  <div class="card">
+    <h2>Åbningstider</h2>
+    <table>
+      <tr><td>Mandag – torsdag</td><td>09:00 – 17:00</td></tr>
+      <tr><td>Fredag</td><td>09:00 – 15:00</td></tr>
+      <tr><td>Lørdag</td><td>Lukket</td></tr>
+      <tr><td>Søndag</td><td>Lukket</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer>© 2026 Niveo.dk</footer>
+</body>
+</html>
