@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niveo – Hurtig landingsite</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1c2333;line-height:1.6}
+  header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%}
+  .logo{font-weight:800;font-size:1.4rem;color:#3b5bdb}
+  nav a{margin-left:24px;text-decoration:none;color:#1c2333;font-weight:500}
+  .hero{text-align:center;padding:100px 8%;background:linear-gradient(135deg,#3b5bdb,#7048e8);color:#fff}
+  .hero h1{font-size:clamp(2rem,6vw,3.5rem);margin-bottom:16px}
+  .hero p{max-width:560px;margin:0 auto 32px;opacity:.9}
+  .btn{display:inline-block;background:#fff;color:#3b5bdb;padding:14px 32px;border-radius:999px;font-weight:700;text-decoration:none}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;padding:80px 8%}
+  .card{padding:28px;border-radius:16px;background:#f4f6fb}
+  .card h3{margin-bottom:8px}
+  .cta{text-align:center;padding:60px 8%;background:#f4f6fb}
+  .cta h2{margin-bottom:16px}
+  footer{text-align:center;padding:24px;font-size:.9rem;color:#667}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Niveo</div>
+  <nav><a href="#features">Fordele</a><a href="#kontakt">Kontakt</a></nav>
+</header>
+
+<section class="hero">
+  <h1>Enkel løsning. Stærkt resultat.</h1>
+  <p>Velkommen til Niveo – vi gør det nemt at komme i gang og nå dine mål hurtigere.</p>
+  <a class="btn" href="#kontakt">Kom i gang</a>
+</section>
+
+<section class="features" id="features">
+  <div class="card"><h3>⚡ Hurtig</h3><p>Op at køre på få minutter uden besvær.</p></div>
+  <div class="card"><h3>🎯 Præcis</h3><p>Fokus på det, der skaber værdi for dig.</p></div>
+  <div class="card"><h3>🤝 Personlig</h3><p>Vi er her, når du har brug for hjælp.</p></div>
+</section>
+
+<section class="cta" id="kontakt">
+  <h2>Klar til at starte?</h2>
+  <a class="btn" style="background:#3b5bdb;color:#fff" href="mailto:kontakt@niveo.dk">Kontakt os</a>
+</section>
+
+<footer>© 2026 Niveo.dk</footer>
+</body>
+</html>
